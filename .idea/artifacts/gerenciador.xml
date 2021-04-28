@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="gerenciador">
+    <output-path>$PROJECT_DIR$/out/artifacts/gerenciador</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="JAX-Wildfly" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.6" />
+          <element id="library" level="project" name="Maven: com.google.protobuf:protobuf-java:3.6.1" />
+          <element id="library" level="project" name="mysql:mysql-connector-java:8.0.18" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="JAX-Wildfly/web/Web" />
+    </root>
+  </artifact>
+</component>
